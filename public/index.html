@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my chatroom!</title>
+	<link rel="stylesheet" type="text/css" href="/app.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<br />
+		<div id="feedback" style="height: 100px; width: 200px; background-color: orange;"></div>
+		<br />
+		<div id="output" style="height:400px; width: 200px;"></div>
+		<br />
+		<input type="text" id="handle" placeholder="Name">	
+		<input type="text" id="message" placeholder="Message">
+		<button id="send">Send</button>
+	</div>
+	
+	<script type="text/javascript" src="/client.js"></script>
+
+</body>
+</html>
